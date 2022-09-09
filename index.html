@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria Celsius</title>
+    <link  rel="stylesheet" href="css/estilos.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script  src="js/var-class.js"></script>
+    <script src="js/propiedades.json" ></script>
+    <script defer src="js/funciones.js" ></script>
+    <script  defer src="js/func-btones.js" ></script>
+    
+    
+</head>
+
+<body>
+    <article class="container"></article>
+        <h1>Inmobiliaria Celsius S.A.</h1>
+        
+        <nav>
+            <div class="radio">
+                <input type="radio" id="mostrarTodo" name="mostrar">Mostrar todo
+                <input type="radio" id="comprar" name="mostrar">Ver casas para comprar
+                <input type="radio" id="alquilar" name="mostrar">Ver casas para alquilar
+            </div>
+            <br>
+            <button id="subirPublicacion" >SUBIR UNA PUBLICACIÓN</button>
+            <button id="quitarPublicacion" >QUITAR UNA PUBLICACIÓN</button>
+        </nav>
+        <h2 id="titulo"></h2>
+
+        <section id="cards">
+            
+        </section>
+
+        <br>
+        <div class="ingresoDatos">
+            <div>
+                <h3 id="titulo2"></h3>
+                <input class="form" type="number" id="id" placeholder="Código id">
+                <input class="form" type="number" id="m2" placeholder="m2">
+                <input class="form" type="number" id="ambientes" placeholder="Ambientes">
+                <input class="form" type="number" id="precio" placeholder="Precio">
+                    <select class="form" name="" id="para">
+                        <option  value="" selected disabled>Comprar/Alquilar</option>
+                        <option  value="COMPRAR">Comprar</option>
+                        <option  value="ALQUILAR">Alquilar</option>
+                    </select>
+            </div>    
+            <br>
+            <button class="form" id="cargar">Cargar</button> 
+            <button class="form" id="quitar">Quitar</button>
+        </div>
+
+    </article>
+    <!-- <img id="gif-loading" src="images/loading-loading-forever.gif"> -->
+</body>
+<footer>Desafío complementario "incorporar librería" sobre trabajo final   -    Nicolás Dacci    -    Comisión 38030</footer>
+</html>

@@ -1,0 +1,38 @@
+[
+    {   
+       "imagen":"/images/34961e2829075839e68a6987681aaa8f.jpg", 
+       "id":4521,
+       "m2":55,
+       "ambientes":2,
+       "precio":10000,
+       "para":"COMPRAR",
+       "estado": "DISPONIBLE"
+    },
+    {
+        "imagen":"/images/af5a1c5ac281111785178c9bcfab63d8.jpg", 
+        "id":2541,
+        "m2":55,
+        "ambientes":2,
+        "precio":10000,
+        "para":"COMPRAR",
+        "estado": "DISPONIBLE" 
+    },
+    {
+        "imagen":"/images/channels4_profile.jpg", 
+        "id":7894,
+        "m2":55,
+        "ambientes":2,
+        "precio":10000,
+        "para":"ALQUILAR",
+        "estado": "DISPONIBLE"  
+    },
+    {
+        "imagen":"/images/Fachada-moderna-casa-dos-pisos-pequeña.jpg", 
+        "id":2549,
+        "m2":55,
+        "ambientes":2,
+        "precio":10000,
+        "para":"ALQUILAR",
+        "estado": "DISPONIBLE"
+    }
+]

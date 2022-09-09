@@ -1,0 +1,144 @@
+h1{
+    background-color: lightseagreen;
+    padding: 1%;
+    text-align: center;
+}
+
+.radio{
+    font-size: 130%;
+}
+
+h2{
+    background-color: darkgray;
+    padding: 1%;
+    text-align: center;
+}
+
+button{
+    font-size: 140%;
+}
+
+p{
+    font-size: 130%;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    
+}
+
+img{
+    width: 50px;
+    height: 500px;
+}
+
+.card{
+    width: 33%;
+    border: 1px;
+    border-color: black;
+    border: solid;
+    margin:2px;
+    border-radius: 10px;
+}
+
+.estilo-a{
+    font-family: sans-serif;
+}
+
+.estilo-a .img-container img{
+    width: 100%;
+}
+
+.ingresoDatos{
+    border: 1px;
+    border-color: black;
+    border: solid;
+    margin:2px;
+    padding: 5px;
+    /*
+    display: none;
+    */
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 150%;
+}
+/*
+.mostrar{
+    display:block;
+}
+
+.ocultar{
+    display: none;
+}
+*/
+#gif-loading{
+    width: 5%;
+    height: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    padding-top: 20px;
+    font-size: 110%;
+    
+}
+
+
+#id{
+    width: 12%;
+    font-size: 120%;
+}
+
+#m2{
+    width: 9%;
+    font-size: 120%;
+}
+
+#ambientes{
+    width: 13%;
+    font-size: 120%;
+}
+
+#precio{
+    width: 15%;
+    font-size: 120%;
+}
+
+#para{
+    width: 26%;
+    font-size: 130%;
+}
+
+.fondo-verde{
+    background-color: rgb(47, 248, 33);
+}
+
+select{
+    font-size: 120%;
+}
